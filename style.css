@@ -7,10 +7,19 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
+    background-color: aquamarine;
 }
 
 .section1 {
+
+
+    color: aliceblue;
+}
+
+.container1 {
     display: flex;
+    background-color: #232249;
+    margin: 5%;
 }
 
 h1 {
@@ -28,24 +37,35 @@ h3 {
 p {
     font-size: 25px;
     font-weight: 700;
+    text-align: justify;
 }
 
 .left-side {
     width: 50%;
-    padding: 5%;
+    padding: 5% 10%;
 }
 
 .right-side {
-    width: 50%;
+    width: 40%;
     padding-top: 5%;
 }
 
 img {
-    height: 800px;
-    border-radius: 80%;
+    height: 450px;
+    width: 350px;
+    border-radius: 50%;
+
 }
 
 a {
     text-decoration: none;
     font-weight: 700;
+    padding: 10px 10px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: aqua;
+
 }
