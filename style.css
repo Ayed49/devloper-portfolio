@@ -9,10 +9,43 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+.section1 {
+    display: flex;
+}
+
 h1 {
     font-size: 50px;
 }
 
 span {
     color: orange;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.left-side {
+    width: 50%;
+    padding: 5%;
+}
+
+.right-side {
+    width: 50%;
+    padding-top: 5%;
+}
+
+img {
+    height: 800px;
+    border-radius: 80%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
 }
