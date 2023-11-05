@@ -10,11 +10,12 @@ body {
     background-color: aquamarine;
 }
 
-.section1 {
-
+.x-section1 {
+    display: flex;
     background-color: #232249;
     color: aliceblue;
     margin: 5%;
+
 }
 
 .container1 {
@@ -49,6 +50,7 @@ p {
 .right-side {
     width: 40%;
     padding-top: 5%;
+    padding-right: 10%;
 }
 
 .image {
@@ -78,9 +80,32 @@ a:hover {
     border-radius: 60%;
 }
 
-.section2 {
-    background-color: #232249;
-    color: aliceblue;
-    margin: 5%;
-    display: flex;
+.left-dev {
+
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 10px 10px 10px rgb(235, 7, 7);
+}
+
+.right-div {
+
+    border-radius: 20px;
+    width: 400px;
+    margin-left: 300px;
+    box-shadow: 10px 10px 10px rgb(235, 7, 7);
+}
+
+
+.right-div:hover {
+    background-color: greenyellow;
+}
+
+.left-dev:hover {
+    background-color: greenyellow;
+}
+
+#gg {}
+
+footer p {
+    text-align: center;
 }
